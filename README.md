@@ -5,10 +5,6 @@
 
 
 
-|   list.txt    
-|   README.md    
-|   文件目录生成.bat    
-|       
 +---bat脚本    
 |       定时关机.bat    
 |       微信多开.bat    
@@ -17,8 +13,10 @@
 +---工具软件    
 |   +---工具    
 |   |   |   360宽带测速器独立版.exe    
+|   |   |   CheckTool.exe    
 |   |   |   CRC计算器.exe    
 |   |   |   CRC计算工具V3.3.0-64.zip    
+|   |   |   DiskGenius 5.5专业版.zip    
 |   |   |   Dism.zip    
 |   |   |   float_hex.exe    
 |   |   |   hex2ascii.exe    
@@ -28,6 +26,8 @@
 |   |   |   NetTool2.5.zip    
 |   |   |   PID仿真软件.zip    
 |   |   |   QuickPing_v0.80.exe    
+|   |   |   SpaceSniffer.exe    
+|   |   |   九宫格图片.exe    
 |   |   |   免费代码对比工具.zip    
 |   |   |   免费的远程软件.zip    
 |   |   |   全局手势.zip    
@@ -35,13 +35,19 @@
 |   |   |   异或计算.exe    
 |   |   |   弹窗路径检测.exe    
 |   |   |   文件校验工具.exe    
+|   |   |   文字转语音.exe    
 |   |   |   桌面天气小部件.zip    
-|   |   |   疫情数据查询-1.0.4.exe    
+|   |   |   特殊符号输入器5.1.exe    
 |   |   |   自动关机.exe    
 |   |   |   蓝屏分析工具.zip    
 |   |   |   部分软件以官网链接形式提供.txt    
+|   |   |   重命名工具.zip    
 |   |   |   鼠标连点器.exe    
 |   |   |       
+|   |   +---EncodingChecker    
+|   |   |       EncodingChecker.exe    
+|   |   |       EncodingUtils.dll    
+|   |   |           
 |   |   +---sspacesniffer-v1.3.0.2    
 |   |   |       Disclaimer.txt    
 |   |   |       Release Notes.txt    
@@ -50,6 +56,13 @@
 |   |   |       SpaceSniffer.exe    
 |   |   |       SpaceSniffer效果图.png    
 |   |   |       说明.txt    
+|   |   |           
+|   |   +---卸载工具    
+|   |   |       GlaryUtilitiesPortable.zip    
+|   |   |       IObitUninstaller-Pro-v12.1.0.5.exe    
+|   |   |       IObitUninstaller-Pro-v13.3.0.2.exe    
+|   |   |       Total Uninstaller.zip    
+|   |   |       TUPortable.zip    
 |   |   |           
 |   |   +---局域网扫描工具    
 |   |   |       CPing.exe    
@@ -70,7 +83,6 @@
 |   |           Uninstall_Tool.zip    
 |   |               
 |   +---调试工具    
-|   |   |   虚拟串口.zip    
 |   |   |   部分软件给出官网地址自行下载.txt    
 |   |   |       
 |   |   +---bacent    
@@ -94,13 +106,13 @@
 |   |   |               ZH_CN.dll    
 |   |   |                   
 |   |   +---Modbus工具    
-|   |   |   |   modbuspoll.zip    
-|   |   |   |   ModbusPoll_v9.9.2_Chs.exe    
-|   |   |   |   ModbusSlave.zip    
-|   |   |   |   ModbusSlave7.0和ModbusPoll 7.2.3软件32和64位版及注册码.zip    
-|   |   |   |   ModbusSlave_v7.4.4_Chs.exe    
 |   |   |   |   MODSCAN.zip    
 |   |   |   |       
+|   |   |   +---Modbus Poll和Modbus Slave    
+|   |   |   |       ModbusPoll 10.9.0和ModbusSlave 9.3.2.zip    
+|   |   |   |       ModbusPoll和ModbusSlave注册码.txt    
+|   |   |   |       ModbusSlave7.0和ModbusPoll 7.2.3软件32和64位版及注册码.zip    
+|   |   |   |           
 |   |   |   +---MODBUS虚拟设备    
 |   |   |   |       01_05指令寄存器地址.csv    
 |   |   |   |       02指令寄存器地址.csv    
@@ -114,22 +126,42 @@
 |   |   |           MODBUS调试助手.exe    
 |   |   |               
 |   |   +---串口调试    
-|   |   |       amaoComV4.9.exe    
-|   |   |       bittly-setup-0.11.6-win-amd64.exe    
-|   |   |       comtool(截至2022.10.22最新版本，可自行更新).zip    
-|   |   |       putty-64bit-0.77-installer.msi    
-|   |   |       qtswissarmyknife-v3.5.0-for-windows-x86.zip    
-|   |   |       UartAssist.exe    
-|   |   |       vofa+_1.3.10_x64_installer.exe    
-|   |   |       XCOM V2.6.exe    
-|   |   |       串口设备调试工具.exe    
-|   |   |           
+|   |   |   |   amaoComV4.9.exe    
+|   |   |   |   ATK-XCOM V2.6.exe    
+|   |   |   |   ATK-XCOM V3.0.exe    
+|   |   |   |   bittly-0.19.1-x64.exe    
+|   |   |   |   CommMonitor7.zip    
+|   |   |   |   comnet.zip    
+|   |   |   |   comtool(截至2022.10.22最新版本，可自行更新).zip    
+|   |   |   |   O-ComTool_Pro.exe    
+|   |   |   |   PortHelper.exe    
+|   |   |   |   putty-64bit-0.77-installer.msi    
+|   |   |   |   qtswissarmyknife-v3.5.0-for-windows-x86.zip    
+|   |   |   |   scomm.exe    
+|   |   |   |   UartAssist.exe    
+|   |   |   |   vofa+_1.3.10_x64_installer.exe    
+|   |   |   |   zcom.exe    
+|   |   |   |   串口设备调试工具.exe    
+|   |   |   |   虚拟串口.zip    
+|   |   |   |       
+|   |   |   \---单片机多功能调试助手    
+|   |   |           PortHelper.exe    
+|   |   |           PortHelperB1.bmp    
+|   |   |           PortHelperB2.bmp    
+|   |   |           【SmartMcu出品】网络调试助手.apk    
+|   |   |           【SmartMcu出品】蓝牙调试助手.apk    
+|   |   |           不能正常启动软件，请运行！.reg    
+|   |   |           开启自动更新.reg    
+|   |   |           必读.txt    
+|   |   |               
 |   |   +---网口调试    
+|   |   |       ATK-XNET.exe    
+|   |   |       C#超级通信调试工具v1.0.exe    
 |   |   |       NetAssist.exe    
 |   |   |       SocketTool.exe    
+|   |   |       端口扫描v5.0.exe    
 |   |   |           
 |   |   \---部分软件界面截图    
-|   |           Bittly软件截图.png    
 |   |           VOFA+.gif    
 |   |           瑞士军刀.png    
 |   |               
@@ -140,26 +172,73 @@
 |   |       部分软件网址.txt    
 |   |           
 |   \---软件辅助工具    
+|       |   360驱动大师纯净版-2.0.0.2000-绿色单文件.exe    
+|       |   360驱动大师网卡版-2.0.0.2000-绿色单文件.exe    
 |       |   AD22_破解文件.zip    
+|       |   Adobe GenP 3.4.12.zip    
+|       |   AIDA64 Business 7.20.exe    
+|       |   AIDA64 Extreme 7.20.exe    
+|       |   EasyUEFI Enterprise 5.2 多语坡姐.zip    
 |       |   Footprint Expert 2022.10 Pro.zip    
 |       |   KeilPackDownloader.exe    
 |       |   keygen(keil注册机可注册到2032).zip    
 |       |   WPS 2019 永久激活工具.exe    
+|       |   驱动精灵绿色不限速版.exe    
+|       |   驱动精灵绿色版.exe    
 |       |       
 |       +---Beyond_Compare注册机    
 |       |       BeyondComparev4Crack.zip    
 |       |       Beyond_Compare_Keygen_4.x.exe    
 |       |           
 |       +---window激活    
+|       |   |   Activation.cmd    
 |       |   |   HEU_KMS_Activator_v26.1.0_Password_HEU168.zip    
+|       |   |   HEU_KMS_Activator_v42.0.1.zip    
+|       |   |   HEU_KMS_Activator_v42.0.3.rar    
+|       |   |   Office21_ProPlus2021VL_MAK_AE2.txt    
+|       |   |   Office_Tool_with_runtime_v10.4.5.0_x64.zip    
+|       |   |   Win10数字权利激活_2019-09-04.zip    
 |       |   |   Win10数字权利激活_2020-03-15.zip    
 |       |   |   小马激活工具.exe    
+|       |   |   说明.txt    
 |       |   |       
-|       |   \---KMS_VL_ALL_AIO-41r_ZH-CN    
-|       |           KMS_VL_ALL_AIO.cmd    
-|       |           ReadMeAIO.html    
-|       |               
+|       |   +---KMS_VL_ALL_AIO-41r_ZH-CN    
+|       |   |       KMS_VL_ALL_AIO.cmd    
+|       |   |       ReadMeAIO.html    
+|       |   |           
+|       |   +---MAS    
+|       |   |       KMS_VL_ALL_AIO.cmd    
+|       |   |           
+|       |   \---Win10数字权利激活_2020-03-15    
+|       |       |   Activation.cmd    
+|       |       |   更新记录.txt    
+|       |       |       
+|       |       +---bin    
+|       |       |   |   7z.dll    
+|       |       |   |   7z.exe    
+|       |       |   |       
+|       |       |   +---Digital    
+|       |       |   |       gatherosstate.exe    
+|       |       |   |       slc.dll    
+|       |       |   |           
+|       |       |   +---KMS38    
+|       |       |   |       gatherosstate.exe    
+|       |       |   |       slc.dll    
+|       |       |   |           
+|       |       |   \---script    
+|       |       |           script.txt    
+|       |       |               
+|       |       \---skus    
+|       |               14393.7z    
+|       |               16299.7z    
+|       |               17134.7z    
+|       |               17763.7z    
+|       |               18362.7z    
+|       |               18363.7z    
+|       |               19041.7z    
+|       |                   
 |       +---电子工程类小工具合集    
+|       |   |   desktop.ini    
 |       |   |   lc谐振频率计算.exe    
 |       |   |   RF_Filter.exe    
 |       |   |   多功能电子计算软件(eTools2.67).exe    

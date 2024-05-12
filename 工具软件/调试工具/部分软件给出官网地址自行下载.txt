@@ -15,3 +15,5 @@ https://www.vofa.plus/
 瑞士军刀
 一款基于qt开发的调试工具！一把开源跨平台的瑞士军刀！
 https://qsaker.gitee.io/qsak/
+改名后的地址
+https://github.com/x-tools-author/x-tools

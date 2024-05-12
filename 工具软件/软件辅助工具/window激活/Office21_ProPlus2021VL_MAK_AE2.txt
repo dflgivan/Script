@@ -1,0 +1,10 @@
+Key: F279Q-64NPH-H8484-8VTQT-6F7TK
+Description: Office21_ProPlus2021VL_MAK_AE2
+Sub Type: X22-53674
+Activation Count: 867
+Time: 13:07:15 16/01/2023 (GMT+7)
+
+适用于 Office LTSC 标准版 2021
+如果提示密钥激活超过次数，等半天一天再去尝试。
+该MAK 过一段时间就会重置一次
+NM6DV-GPBPQ-M4R8C-G7C3G-4M8P7
